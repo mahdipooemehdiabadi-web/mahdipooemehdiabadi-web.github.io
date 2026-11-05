@@ -7,64 +7,69 @@
 <title>مهدی پورمهدی‌آبادی | وب‌سایت شخصی</title>
 <style>
 *{box-sizing:border-box}
-body{
-margin:0;
-font-family:Tahoma,sans-serif;
-background:#081426;
-color:#fff;
-line-height:2;
-}
-header{
-text-align:center;
-padding:65px 20px;
-background:linear-gradient(135deg,#10294a,#06101e);
-border-bottom:3px solid #d6ae54;
-}
-h1{color:#e9c46a;font-size:30px}
-header p{color:#ddd}
-section{
-max-width:850px;
-margin:30px auto;
-padding:25px;
-background:#10233d;
-border:1px solid #bd984d;
-border-radius:16px;
-}
-h2{color:#e9c46a}
-footer{
-text-align:center;
-padding:25px;
-color:#bbb;
-}
+body{margin:0;font-family:Tahoma,sans-serif;background:#081426;color:white;line-height:2}
+header{text-align:center;padding:45px 20px;background:linear-gradient(135deg,#173b65,#06101e);border-bottom:3px solid #d6ae54}
+h1,h2{color:#e9c46a}
+header img{width:145px;height:145px;border-radius:50%;object-fit:cover;border:4px solid #e9c46a}
+section{max-width:850px;margin:25px auto;padding:25px;background:#10233d;border:1px solid #bd984d;border-radius:16px}
+p,li{color:#e5eaf1}
+.resume{width:100%;border-radius:12px;margin-top:15px}
+footer{text-align:center;padding:25px;color:#bbb}
+a{color:#e9c46a}
 </style>
 </head>
 <body>
+
 <header>
+<img src="profile.jpg" alt="عکس پرسنلی مهدی">
 <h1>مهدی پورمهدی‌آبادی</h1>
-<p>یادگیری، رهبری و ساختن آینده‌ای بزرگ</p>
+<p>دانش‌آموز رشته الکتروتکنیک | علاقه‌مند به مدیریت، فناوری و کارآفرینی</p>
 </header>
 
 <section>
 <h2>درباره من</h2>
-<p>من به یادگیری، پیشرفت فردی، مدیریت و ساختن کسب‌وکار علاقه دارم. هدفم این است که با دانش و تلاش، آینده‌ای موفق بسازم.</p>
+<p>
+من دانش‌آموز پایه دهم رشته الکتروتکنیک هستم.
+به فناوری، مهندسی برق، مدیریت، کارآفرینی،
+برنامه‌نویسی و طراحی وب علاقه دارم.
+</p>
+<p>
+مهارت‌های HTML و CSS را یاد گرفته‌ام و به ساخت
+وب‌سایت‌های کاربردی و توسعه مهارت‌های برنامه‌نویسی علاقه‌مندم.
+</p>
 </section>
 
 <section>
-<h2>مهارت‌ها و علاقه‌مندی‌ها</h2>
-<p>مدیریت و رهبری</p>
-<p>ارتباط و سخنرانی</p>
-<p>مهندسی برق و الکتروتکنیک</p>
-<p>تجارت و کارآفرینی</p>
+<h2>مهارت‌ها و توانایی‌ها</h2>
+<ul>
+<li>آشنایی و یادگیری HTML</li>
+<li>آشنایی و یادگیری CSS</li>
+<li>طراحی صفحات وب</li>
+<li>مسئولیت‌پذیری و پیگیری امور</li>
+<li>همکاری و فعالیت گروهی</li>
+<li>علاقه‌مند به مدیریت و رهبری</li>
+</ul>
 </section>
 
 <section>
-<h2>اهداف من</h2>
-<p>تأسیس یک شرکت موفق در زمینه برق و خدمات فنی و تبدیل شدن به یک کارآفرین موفق.</p>
+<h2>سوابق فعالیت دانش‌آموزی</h2>
+<ul>
+<li>عضو شورای دانش‌آموزی در پایه هفتم</li>
+<li>عضو شورای دانش‌آموزی در پایه نهم</li>
+</ul>
+</section>
+
+<section>
+<h2>رزومه دانش‌آموزی من</h2>
+<p>برای مشاهده رزومه کامل من:</p>
+<img class="resume" src="resume.png" alt="تصویر رزومه دانش‌آموزی">
 </section>
 
 <footer>
-© 2026 | مهدی پورمهدی‌آبادی
+<p>وب‌سایت شخصی مهدی پورمهدی‌آبادی</p>
+<p>۱۴۰۵</p>
 </footer>
+
 </body>
 </html>
 
